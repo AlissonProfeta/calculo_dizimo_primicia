@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+} /* CONFIG GERAL SITE*/
+
+
+body{
+    font: normal 15px arial;
+    background-image: linear-gradient(to right, rgb(254, 254, 254) , rgb(159, 250, 168), rgb(174, 254, 255) );
+} /* CONFIG GERAL DO CORPO */
+
+
+
+h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.407);
+}
+
+.container{
+    margin-top: 80px;
+    max-width: 540px;
+} /* CSS CONTAINER */
+
+
+.sec{
+    margin-left: 100px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(229, 229, 229));
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.407);
+} /* CSS SECTION */
+
+.navbar{
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(229, 229, 229));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.131);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} /* CSS MANUAL DO HEADER */
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+} /*CSS MANUAL DO H1 DO HEADER*/
+
+
+div {
+    text-align: center;
+    padding: 8px;
+} /*CSS GERAL PARA AS DIVS*/
+
+#rodape{
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;    
+    line-height: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(229, 229, 229));
+    box-shadow: 10px 10px 45px rgba(0, 0, 0, 0.54);
+} /* CSS DO RODAPÉ DA PAGINA */
+
+#res{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+} /* CSS DO RESULTADO QUE É MOSTRADO NA TELA */
+
+#dias{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 40px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.131);
+} /* CSS DO INPUT DIAS MESMA CONFIG DO INPUT CALCVALOR */
+
+#calcvalor{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 40px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.131);
+} /* CSS DO INPUT VALOR, MESMA CONFIG DO INPUT DIAS */
+
+#botaocalc{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 14px 40px;
+    border-radius: 12px;
+    background-image: linear-gradient(to right, rgb(148, 255, 251) , rgb(190, 255, 167));
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.131);
+} /* CSS DO INPUT BOTÃO */
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}/* REMOVER O CONTADOR DO INPUT NUMBER*/
+
