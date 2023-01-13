@@ -16,7 +16,7 @@ function calcular() {
         alert('[ERRO] CAMPO NÃO PREENCHIDO')
 
     } else {
-        res.innerHTML = `Valor inserido: R$ ${valor.toFixed(2)} <br><br> Primícias: R$ ${calcprimicia.toFixed(2)} <br><br> Dízimo: R$ ${dizimo.toFixed(2)}`
+        res.innerHTML = `<hr> <br><br>Valor inserido: R$ ${valor.toFixed(2)} <br><br> Primícias: R$ ${calcprimicia.toFixed(2)} <br><br> Dízimo: R$ ${dizimo.toFixed(2)} <br><br> <hr> `
     }
 
 }
