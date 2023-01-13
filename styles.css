@@ -53,14 +53,13 @@ div {
 #rodape{
     color: #000;
     position: absolute;
-    bottom: 0;
-    width: 100%;   
-    line-height: 100px;
+    bottom: 0%;
+    width: 100%;  
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(229, 229, 229));
-    box-shadow: 10px 10px 45px rgba(0, 0, 0, 0.54);
+    box-shadow: 10px 10px 45px rgba(0, 0, 0, 0.722);
 } /* CSS DO RODAPÉ DA PAGINA */
 
 #res{
